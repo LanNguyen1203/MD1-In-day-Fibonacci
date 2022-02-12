@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In dãy Fibonacci</title>
+</head>
+<body>
+<h2>Dãy Fibonacci là</h2>
+<script>
+    let num = +prompt('Hãy nhập một số nguyên dương là độ dài dãy Fibonacci')
+    let n1 = 0;
+    let n2 = 1;
+    let n3;
+    while (0 < num) {
+        n3 = n1 + n2;
+        n1 = n2;
+        n2 = n3;
+        document.write( n1 + " ")
+        num--;
+    }
+
+
+
+</script>
+</body>
+</html>
